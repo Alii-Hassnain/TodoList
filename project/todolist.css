@@ -38,7 +38,7 @@ body{
     align-items: start;
 }
 .right-section p{
-    margin: 0;
+    margin: 5px;
 }
 
 .left-section p{
@@ -51,9 +51,9 @@ body{
 
 }
 .submit-btn{
-    background-color: rgb(126, 126, 246);
+    background-color: rgb(249, 7, 217);
     border: none;
-    color: white;
+    color: black;
     border-radius: 5px;
     font-weight: bold;
     padding: 10px;
@@ -61,14 +61,16 @@ body{
     cursor: pointer;
 }
 .submit-btn:hover{
-    background-color: rgb(241, 98, 98);
+    background-color: black;
+    color: white;
 }
+
 .todos-entered{
     color: white;
     font-size: 20px;
-    border-style: solid;
+    /* border-style: solid; */
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 1fr;
     
 }
 .grid-container{
@@ -80,6 +82,23 @@ body{
     padding-right: 10px;
 
 }
-.border{
-    border-style: solid;
+.todoChange{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
 }
+.delete-btn{
+    background-color: rgb(255, 0, 191);
+    border: none;
+    width: 100px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.delete-btn:hover{
+    background-color: black;
+
+}
+
