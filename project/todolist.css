@@ -16,13 +16,19 @@ body{
     height: 100vh;
 }
 
-
+.title-container{
+    width: 100vw;
+    height: 200px;
+    
+}
 
 .title{
     text-align: center;
     font-weight: bold;
     font-size: 80px;
     color: white;
+  
+    
 }
 .left-section{
     /* background-color: red; */
